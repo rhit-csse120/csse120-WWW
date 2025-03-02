@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,italic,semibold,semibolditalic,bold,bolditalic,extrabold,extrabolditalic"
+        rel="stylesheet">
+  <link href="../../styles/color_scheme.css" rel="stylesheet">
+  <link href="../../styles/style.css" rel="stylesheet">
+  <link href="../../styles/navigation_bar.css" rel="stylesheet">
+  <link href="../../styles/session_page.css" rel="stylesheet">
+
+  <title> CSSE 120: Session 11 </title>
+</head>
+
+<body>
+
+<nav>
+  <img alt="Ada Lovelace" class="left" height="186" src="../../../Images/AdaLovelace.jpg" width="186">
+  <div class="course">
+    <p class="course-number">CSSE 120</p>
+    <p class="course-name">Introduction to<br>Software Development</p>
+    <p class="course-term">Spring term, 2024-25 (aka 202530)</p>
+  </div>
+  <div class="links">
+    <a href="../../Syllabus/Syllabus.pdf" target="_blank">SYLLABUS</a>
+    <a href="../../Resources/CSSE120_Setup/CSSE120_Computer_Setup.pdf" target="_blank">COMPUTER SETUP</a>
+    <a href="https://piazza.com/rose-hulman/spring2025/csse120/home" target="_blank">PIAZZA (Q&A)</a>
+    <a href="https://docs.python.org/3/library/index.html" target="_blank">PYTHON STANDARD LIBRARY</a>
+    <a href="https://docs.python.org/3/reference/index.html" target="_blank">PYTHON LANGUAGE REFERENCE</a>
+    <a href="https://www.python.org/doc/" target="_blank">MORE PYTHON DOCUMENTATION</a>
+    <a href="https://docs.google.com/document/d/14neceVdVZyqqE92JlZMAy0DwpuZzxNQKVg-Cnl6OxFY/edit?usp=sharing" target="_blank">CAPSTONE PROJECT</a>
+  </div>
+  <img alt="Two women coding together" class="right" height="186"
+       src="../../../Images/two-women-coding-together-cropped.png"
+       width="200">
+</nav>
+
+<p>
+  <strong><em>IN CLASS</em></strong> you will Live-Code the Moving Smile Pygame Tutorial,
+  using this <a class="link" href="https://classroom.github.com/a/t8-IwTyS">Starting code for Moving Smile</a>.
+  <strong>Do NOT clone this project until told to do so IN CLASS.</strong>
+</p>
+<p>
+
+</p>
+<!--<div class="session-page">-->
+<!--  <div class="session-header">-->
+<!--    Session-->
+<!--    <span class="session-number">11</span>-->
+<!--    Preparation-->
+<!--  </div>-->
+<!--  <div class="session-body">-->
+<!--    <div class="videos-reading">-->
+<!--      <div class="videos-reading-header">-->
+<!--        1. Videos/Reading with Quizzes in Moodle-->
+<!--      </div>-->
+<!--      <div class="body">-->
+<!--&lt;!&ndash;        <p class="title-for-list">&ndash;&gt;-->
+<!--&lt;!&ndash;          Do all the items on this Preparation page&ndash;&gt;-->
+<!--&lt;!&ndash;          <span class="emphasis">BEFORE this session's scheduled class time.</span>&ndash;&gt;-->
+<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--        &lt;!&ndash;        <p>&ndash;&gt;-->
+<!--        &lt;!&ndash;          Read as needed the&ndash;&gt;-->
+<!--        &lt;!&ndash;          <a href="../standard_instructions_for_preparation">Standard Instructions for a Session&ndash;&gt;-->
+<!--        &lt;!&ndash;            Preparation</a>,&ndash;&gt;-->
+<!--        &lt;!&ndash;          then do the following activities:&ndash;&gt;-->
+<!--        &lt;!&ndash;        </p>&ndash;&gt;-->
+<!--        <ol class="activities">-->
+<!--          <p>-->
+<!--            There are no videos/reading for this session.-->
+<!--          </p>-->
+<!--        </ol>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="preparation-summary-quiz">-->
+<!--      <div class="preparation-summary-quiz-header">-->
+<!--        2. Preparation-Summary Quiz-->
+<!--      </div>-->
+<!--      <div class="body">-->
+<!--&lt;!&ndash;        <p>&ndash;&gt;-->
+<!--&lt;!&ndash;          <span class="emphasis">AFTER</span>&ndash;&gt;-->
+<!--&lt;!&ndash;          doing all the Videos / Reading to the left,&ndash;&gt;-->
+<!--&lt;!&ndash;          along with their associated quizzes in Moodle:&ndash;&gt;-->
+<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--        <ul>-->
+<!--          <p>-->
+<!--            There is no Preparation-Summary Quiz for this session.-->
+<!--          </p>-->
+<!--&lt;!&ndash;          <li>&ndash;&gt;-->
+<!--&lt;!&ndash;            Do the <a class="quiz-link" href="../../Quizzes/Preparation-Summary%20Quiz-09.pdf">Preparation-Summary&ndash;&gt;-->
+<!--&lt;!&ndash;            Quiz</a>.&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>&ndash;&gt;-->
+<!--&lt;!&ndash;            Turn in your answers via Moodle.&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>&ndash;&gt;-->
+<!--&lt;!&ndash;            Check your own answers by using either or both of:&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>&ndash;&gt;-->
+<!--&lt;!&ndash;            Video solutions:&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;          <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span class="video-title"> Solutions to the Start-the-Session Quiz, Problems 1 and 2: </span>&ndash;&gt;-->
+<!--&lt;!&ndash;              <a class="video-link"&ndash;&gt;-->
+<!--&lt;!&ndash;                 href="https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a8a50cc-d28c-4988-a301-ab940137126c"><span&ndash;&gt;-->
+<!--&lt;!&ndash;                      class="video-link-text">Video</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span class="video-length">[8:13]</span>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span class="video-title"> Solutions to the Start-the-Session Quiz, Problems 3 to 7: </span>&ndash;&gt;-->
+<!--&lt;!&ndash;              <a class="video-link"&ndash;&gt;-->
+<!--&lt;!&ndash;                 href="https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd55a19a-a434-4d29-9db7-ab94013ad4cd"><span&ndash;&gt;-->
+<!--&lt;!&ndash;                      class="video-link-text">Video</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span class="video-length">[6:58]</span>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;          </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="quiz-link" href="../../Quizzes/Preparation-Summary%20Quiz-09%20-%20SOLUTION.pdf">Written&ndash;&gt;-->
+<!--&lt;!&ndash;              answer key</a>&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="get-starting-code">-->
+<!--      <div class="get-starting-code-header">-->
+<!--        3. Get the starting code-->
+<!--      </div>-->
+<!--      <div class="body">-->
+<!--        <p>-->
+<!--          Clone the following into PyCharm,-->
+<!--          using the standard <a href="../../Resources/CSSE120_Setup/Instructions_for_GitHub_Classroom.pdf">instructions-->
+<!--          for getting the Starting Code</a>.-->
+<!--        </p>-->
+<!--        <ul>-->
+<!--          <li>-->
+<!--            <a class="link" href="https://classroom.github.com/a/xsP4Mvuh">Starting code for Session 11</a>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--        <p></p>-->
+<!--        <p></p>-->
+<!--        <p>-->
+<!--          Additionally, <strong><em>IN CLASS</em></strong> you will live-code the Dog Bark Pygame Tutorial,-->
+<!--            using the following <a class="link" href="https://classroom.github.com/a/dnGG5Zib">Starting code for DogBark</a>.-->
+<!--        </p>-->
+<!--&lt;!&ndash;        <p style="margin-top: 1rem">&ndash;&gt;-->
+<!--&lt;!&ndash;        Additionally, if you are pair programming,&ndash;&gt;-->
+<!--&lt;!&ndash;        use the&ndash;&gt;-->
+<!--&lt;!&ndash;        <a href="../../Resources/CSSE120_Setup/InstructionsForPairProgrammingInGithubClassoom.pdf">&ndash;&gt;-->
+<!--&lt;!&ndash;          standard instructions for forming a Team project</a> on this:&ndash;&gt;-->
+<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--&lt;!&ndash;        <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;          <li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="link" href="https://classroom.github.com/a/JNznStfv">Starting code for pair programming Session 13</a>&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="follow-me">-->
+<!--      <div class="follow-me-header">-->
+<!--        4. Follow-Me Videos-->
+<!--      </div>-->
+<!--      <div class="body">-->
+<!--&lt;!&ndash;        <p>&ndash;&gt;-->
+<!--&lt;!&ndash;          <span class="emphasis">AFTER</span>&ndash;&gt;-->
+<!--&lt;!&ndash;          completing the items to the left,&ndash;&gt;-->
+<!--&lt;!&ndash;          do these Follow-Me videos/activities:&ndash;&gt;-->
+<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--&lt;!&ndash;        <p class="title-for-list">&ndash;&gt;-->
+<!--&lt;!&ndash;          <span class="emphasis">Follow-Me videos:</span>&ndash;&gt;-->
+<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--        <ol class="activities">-->
+<!--          <p>-->
+<!--            There are no Follow-Me videos for this session.-->
+<!--          </p>-->
+<!--        </ol>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!- The following provides space at the bottom to help ensure that students do not miss the last of the above items.
+-->
+<hr class="footer">
+
+</body>
+</html>
